@@ -10,6 +10,9 @@ module.exports = {
         domaine: ["DomaineDisplay", "serif"],
         grotesk: ["AktivGrotesk", "sans-serif"],
       },
+      spacing: {
+        "-28px": "-28px",
+      },
     },
   },
   plugins: [],

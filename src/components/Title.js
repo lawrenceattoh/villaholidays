@@ -5,7 +5,7 @@ const Title = () => {
     <div className="relative flex flex-col items-start">
       {/* Our Extraordinary Text */}
       <span
-        className="block text-transparent bg-clip-text bg-gradient-to-r from-[#0172B1] to-[#019EF5] mb-[-20px] relative z-10 sm:ml-[-80px]"
+        className="block text-transparent bg-clip-text bg-gradient-to-r from-[#0172B1] to-[#019EF5] mb-[-30px] relative z-10 md:ml-[-25px]"
         style={{
           fontFamily: "HaikusScript, cursive",
           fontSize: "32px",
@@ -14,7 +14,7 @@ const Title = () => {
           width: "231px",
           whiteSpace: "nowrap",
           overflow: "hidden",
-          marginLeft: "-10px",
+          marginLeft: "-12px",
         }}
       >
         Our Extraordinary

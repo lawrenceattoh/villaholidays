@@ -20,15 +20,15 @@ const VillaHolidays = () => {
               <img
                 src={stamp}
                 alt="Stamp"
-                className="w-full h-auto relative md:w-auto md:h-auto" // Resizes the image based on screen size
-                style={{ top: "-30px", right: "-8px" }}
+                className="w-full h-auto relative md:w-auto md:h-auto md:-right-28px" // Resizes the image based on screen size
+                style={{ top: "-30px" }}
               />
             </div>
 
             {/* Content: title, text, and button */}
             <div className="col-span-7">
               {/* Title component with responsive text sizes */}
-              <Title className="text-[24px] sm:text-[20px]leading-[32px] md:text-[48px] md:leading-[56px]" />
+              <Title className="text-[24px] leading-[32px] md:text-[48px] md:leading-[56px]" />
 
               {/* Paragraph text with responsive max-width */}
               <p
